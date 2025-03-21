@@ -30,6 +30,7 @@ export const MealsOverviewScreen = ({ route, navigation }) => {
       affordability: item.affordability,
       complexity: item.complexity,
       duration: item.duration,
+      id: item.id,
     };
 
     return <MealItem {...mealItemProps} />;
